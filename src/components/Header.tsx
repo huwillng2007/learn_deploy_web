@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Music, PlusCircle, Search, Sparkles, RefreshCw } from 'lucide-react';
-import { useMusic } from '../context/MusicContext';
+import { useMusic } from '../App';
 
 export const Header: React.FC = () => {
   const { openCreateForm, searchFromItunes, resetToDefault, songs } = useMusic();

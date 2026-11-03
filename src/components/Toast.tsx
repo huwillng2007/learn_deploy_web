@@ -1,6 +1,6 @@
 import React from 'react';
 import { CheckCircle2 } from 'lucide-react';
-import { useMusic } from '../context/MusicContext';
+import { useMusic } from '../App';
 
 export const Toast: React.FC = () => {
   const { toastMessage } = useMusic();

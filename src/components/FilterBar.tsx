@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Search, X, SlidersHorizontal, ArrowUpDown, Filter, RotateCcw } from 'lucide-react';
-import { FilterOptions, SortOption } from '../types/song';
+import { FilterOptions, SortOption } from '../App';
 import { debounce } from '../utils';
 
 interface FilterBarProps {

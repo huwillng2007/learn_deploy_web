@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { Play, Pause, Volume2, VolumeX, X, Disc3 } from 'lucide-react';
-import { useMusic } from '../context/MusicContext';
+import { useMusic } from '../App';
 
 export const AudioPlayerBar: React.FC = () => {
   const { currentPlaying, isPlaying, pauseSong, playSong } = useMusic();

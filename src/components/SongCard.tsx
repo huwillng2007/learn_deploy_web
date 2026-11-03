@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Play, Pause, Heart, Eye, Edit3, Trash2, Clock, Disc3, Tag } from 'lucide-react';
-import { Song } from '../types/song';
-import { useMusic } from '../context/MusicContext';
+import { Song, useMusic } from '../App';
 import { formatCurrency, truncateText } from '../utils';
 
 interface SongCardProps {

@@ -1,8 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { FilterBar } from '../components/FilterBar';
 import { SongCard } from '../components/SongCard';
-import { useMusic } from '../context/MusicContext';
-import { FilterOptions } from '../types/song';
+import { useMusic, FilterOptions } from '../App';
 import { Sparkles, Music2, PlusCircle, HelpCircle } from 'lucide-react';
 
 export const ListPage: React.FC = () => {

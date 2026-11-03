@@ -9,6 +9,12 @@
     "lint": "eslint .",
     "test": "vitest run"
   },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {},
+      "autoprefixer": {}
+    }
+  },
   "dependencies": {
     "lucide-react": "^0.468.0",
     "react": "^18.3.1",

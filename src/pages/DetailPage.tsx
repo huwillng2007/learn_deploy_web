@@ -15,7 +15,7 @@ import {
   Share2,
   Volume2,
 } from 'lucide-react';
-import { useMusic } from '../context/MusicContext';
+import { useMusic } from '../App';
 import { formatCurrency } from '../utils';
 
 export const DetailPage: React.FC = () => {

@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { X, Save, Music, AlertCircle } from 'lucide-react';
-import { useMusic } from '../context/MusicContext';
-import { Song } from '../types/song';
+import { useMusic, Song } from '../App';
 
 export const SongFormModal: React.FC = () => {
   const { isFormOpen, editingSong, closeForm, addSong, updateSong } = useMusic();

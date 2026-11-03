@@ -14,7 +14,7 @@ import {
   Volume2,
   Tag,
 } from 'lucide-react';
-import { useMusic } from '../context/MusicContext';
+import { useMusic } from '../App';
 import { formatCurrency } from '../utils';
 
 export const SongDetailModal: React.FC = () => {

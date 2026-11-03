@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .header-bg { fill: #ffffff; stroke: #e2e8f0; }
+      .brand { fill: #059669; font-weight: bold; font-family: sans-serif; }
+      .card { fill: #ffffff; stroke: #e2e8f0; rx: 12; }
+      .card-emerald { fill: #ecfdf5; stroke: #10b981; rx: 12; }
+      .btn { fill: #059669; rx: 6; }
+      .text-dark { fill: #0f172a; font-family: sans-serif; font-size: 13px; }
+      .text-muted { fill: #64748b; font-family: sans-serif; font-size: 11px; }
+      .title { fill: #0f172a; font-family: sans-serif; font-size: 20px; font-weight: bold; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="800" class="bg"/>
+
+  <!-- DESKTOP WIREFRAME -->
+  <text x="50" y="45" class="title">Desktop Wireframe (1200px+ / 3-4 cột) &bull; SV: Hồ Ngọc Hưng (6651071097)</text>
+
+  <!-- Desktop Header -->
+  <rect x="50" y="60" width="750" height="50" class="header-bg" rx="8"/>
+  <circle cx="80" cy="85" r="14" fill="#059669"/>
+  <text x="105" y="90" class="brand" font-size="15">EmeraldMusic</text>
+  <rect x="550" y="72" width="100" height="26" fill="#ecfdf5" stroke="#a7f3d0" rx="6"/>
+  <text x="562" y="89" fill="#059669" font-family: sans-serif; font-size="11">API iTunes</text>
+  <rect x="665" y="72" width="120" height="26" class="btn"/>
+  <text x="682" y="89" fill="#ffffff" font-family: sans-serif; font-size="11">+ Thêm Bài Hát</text>
+
+  <!-- Hero Banner -->
+  <rect x="50" y="125" width="750" height="90" fill="#064e3b" rx="12"/>
+  <text x="75" y="155" fill="#a7f3d0" font-family: sans-serif; font-size="11" font-weight="bold">CHỦ ĐỀ D=12: DANH SÁCH NHẠC &bull; MÀU C=1: EMERALD (#059669)</text>
+  <text x="75" y="185" fill="#ffffff" font-family: sans-serif; font-size="18" font-weight="bold">Thư Viện Âm Nhạc &amp; Quản Lý Playlist Cá Nhân</text>
+
+  <!-- Filter Bar -->
+  <rect x="50" y="230" width="750" height="50" class="header-bg" rx="10"/>
+  <rect x="65" y="242" width="380" height="26" fill="#f1f5f9" stroke="#cbd5e1" rx="6"/>
+  <text x="80" y="259" class="text-muted">Tìm kiếm bài hát, ca sĩ, album (debounce 300ms)...</text>
+  <rect x="460" y="242" width="120" height="26" fill="#ffffff" stroke="#cbd5e1" rx="6"/>
+  <text x="475" y="259" class="text-dark">Thể loại ▼</text>
+  <rect x="595" y="242" width="120" height="26" fill="#ffffff" stroke="#cbd5e1" rx="6"/>
+  <text x="610" y="259" class="text-dark">Sắp xếp ▼</text>
+
+  <!-- Grid of cards (3 columns) -->
+  <!-- Card 1 -->
+  <rect x="50" y="295" width="235" height="260" class="card"/>
+  <rect x="60" y="305" width="215" height="130" fill="#cbd5e1" rx="8"/>
+  <text x="60" y="455" class="text-dark" font-weight="bold">Chúng Ta Của Hiện Tại</text>
+  <text x="60" y="475" class="text-muted">Sơn Tùng M-TP &bull; Pop</text>
+  <text x="60" y="500" fill="#059669" font-weight="bold" font-family: sans-serif; font-size="12">25.000 ₫</text>
+  <rect x="60" y="515" width="95" height="24" fill="#ecfdf5" rx="6"/>
+  <text x="75" y="531" fill="#059669" font-size="10" font-weight="bold">Xem Nhanh</text>
+  <rect x="165" y="515" width="95" height="24" fill="#f1f5f9" rx="6"/>
+  <text x="185" y="531" class="text-dark" font-size="10">Chi Tiết</text>
+
+  <!-- Card 2 -->
+  <rect x="305" y="295" width="235" height="260" class="card"/>
+  <rect x="315" y="305" width="215" height="130" fill="#cbd5e1" rx="8"/>
+  <text x="315" y="455" class="text-dark" font-weight="bold">Waiting For You</text>
+  <text x="315" y="475" class="text-muted">MONO &bull; R&amp;B/Soul</text>
+  <text x="315" y="500" fill="#059669" font-weight="bold" font-family: sans-serif; font-size="12">29.000 ₫</text>
+  <rect x="315" y="515" width="95" height="24" fill="#ecfdf5" rx="6"/>
+  <text x="330" y="531" fill="#059669" font-size="10" font-weight="bold">Xem Nhanh</text>
+  <rect x="420" y="515" width="95" height="24" fill="#f1f5f9" rx="6"/>
+  <text x="440" y="531" class="text-dark" font-size="10">Chi Tiết</text>
+
+  <!-- Card 3 -->
+  <rect x="560" y="295" width="235" height="260" class="card"/>
+  <rect x="570" y="305" width="215" height="130" fill="#cbd5e1" rx="8"/>
+  <text x="570" y="455" class="text-dark" font-weight="bold">Nàng Thơ</text>
+  <text x="570" y="475" class="text-muted">Hoàng Dũng &bull; Acoustic</text>
+  <text x="570" y="500" fill="#059669" font-weight="bold" font-family: sans-serif; font-size="12">25.000 ₫</text>
+  <rect x="570" y="515" width="95" height="24" fill="#ecfdf5" rx="6"/>
+  <text x="585" y="531" fill="#059669" font-size="10" font-weight="bold">Xem Nhanh</text>
+  <rect x="675" y="515" width="95" height="24" fill="#f1f5f9" rx="6"/>
+  <text x="695" y="531" class="text-dark" font-size="10">Chi Tiết</text>
+
+  <!-- Fixed Bottom Audio Player -->
+  <rect x="50" y="575" width="750" height="45" fill="#ffffff" stroke="#10b981" rx="10"/>
+  <circle cx="80" cy="597" r="14" fill="#cbd5e1"/>
+  <text x="105" y="602" class="text-dark" font-weight="bold">Chúng Ta Của Hiện Tại</text>
+  <circle cx="425" cy="597" r="14" fill="#059669"/>
+  <text x="420" y="602" fill="#ffffff" font-size="12">▶</text>
+  <rect x="460" y="594" width="220" height="6" fill="#e2e8f0" rx="3"/>
+  <rect x="460" y="594" width="90" height="6" fill="#059669" rx="3"/>
+
+  <!-- MOBILE WIREFRAME (RIGHT SIDE) -->
+  <text x="850" y="45" class="title">Mobile Wireframe (&lt;640px)</text>
+  <rect x="850" y="60" width="300" height="650" fill="#ffffff" stroke="#94a3b8" rx="28"/>
+  <!-- Screen top notch -->
+  <rect x="940" y="66" width="120" height="12" fill="#0f172a" rx="6"/>
+
+  <!-- Mobile Header -->
+  <rect x="860" y="88" width="280" height="40" fill="#ffffff" stroke="#f1f5f9"/>
+  <circle cx="880" cy="108" r="10" fill="#059669"/>
+  <text x="898" y="112" class="brand" font-size="12">EmeraldMusic</text>
+  <rect x="1075" y="96" width="55" height="24" class="btn"/>
+  <text x="1085" y="111" fill="#ffffff" font-family: sans-serif; font-size="9">+ Thêm</text>
+
+  <!-- Mobile Search Bar -->
+  <rect x="865" y="136" width="270" height="30" fill="#f8fafc" stroke="#cbd5e1" rx="8"/>
+  <text x="880" y="155" class="text-muted" font-size="10">🔍 Tìm bài hát...</text>
+
+  <!-- Mobile Card 1 (Single column) -->
+  <rect x="865" y="176" width="270" height="230" class="card"/>
+  <rect x="875" y="184" width="250" height="110" fill="#cbd5e1" rx="6"/>
+  <text x="875" y="312" class="text-dark" font-size="11" font-weight="bold">Chúng Ta Của Hiện Tại</text>
+  <text x="875" y="328" class="text-muted" font-size="10">Sơn Tùng M-TP &bull; Pop</text>
+  <text x="875" y="348" fill="#059669" font-size="11" font-weight="bold">25.000 ₫</text>
+  <rect x="875" y="360" width="120" height="24" fill="#ecfdf5" rx="6"/>
+  <text x="905" y="375" fill="#059669" font-size="9" font-weight="bold">Xem Nhanh</text>
+  <rect x="1005" y="360" width="120" height="24" fill="#f1f5f9" rx="6"/>
+  <text x="1040" y="375" class="text-dark" font-size="9">Chi Tiết</text>
+
+  <!-- Mobile Card 2 -->
+  <rect x="865" y="416" width="270" height="230" class="card"/>
+  <rect x="875" y="424" width="250" height="110" fill="#cbd5e1" rx="6"/>
+  <text x="875" y="552" class="text-dark" font-size="11" font-weight="bold">Waiting For You</text>
+  <text x="875" y="568" class="text-muted" font-size="10">MONO &bull; R&amp;B/Soul</text>
+
+  <!-- Mobile Fixed Player -->
+  <rect x="850" y="650" width="300" height="40" fill="#ffffff" stroke="#10b981"/>
+  <circle cx="875" cy="670" r="10" fill="#059669"/>
+  <text x="895" y="674" class="text-dark" font-size="10" font-weight="bold">Chúng Ta Của Hiện Tại</text>
+  <circle cx="1120" cy="670" r="10" fill="#059669"/>
+  <text x="1117" y="673" fill="#ffffff" font-size="9">▶</text>
+</svg>
